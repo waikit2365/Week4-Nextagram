@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar {
+    display: inline-block;
+    text-align: right;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+  }
+
+.box {
+    display: inline-block;
+    height: 40vh;
+    width: 40vh;
+    box-sizing: border-box;
+    flex: 100%;
+    justify-content: center;
+}
+.box img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 0 5px;
+}
+
+.box div {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+}
